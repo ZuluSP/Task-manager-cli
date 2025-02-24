@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+coverage/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+.DS_Store
+
+# Jest test cache
+jest.config.js
