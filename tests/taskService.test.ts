@@ -2,7 +2,7 @@ import { TaskService } from '../src/services/TaskService';
 import { TaskRepository } from '../src/repository/TaskRepository';
 import { Task } from '../src/models/Task';
 
-// I use a repository mock to not invade responsabilities. In a real enviroment this is totally necessary.
+// I used a repository mock to not invade responsabilities. In a real enviroment this is totally necessary.
 jest.mock('../src/repository/TaskRepository');
 
 describe('TaskService', () => {
