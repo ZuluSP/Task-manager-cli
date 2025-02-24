@@ -23,6 +23,7 @@
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.5",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
@@ -31,5 +32,8 @@
     "prettier": "^3.5.2",
     "ts-jest": "^29.2.6",
     "typescript-eslint": "^8.25.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }

@@ -13,3 +13,9 @@ coverage/
 
 # Jest test cache
 jest.config.js
+
+# Environment variables
+.env
+
+# Ignore task data file
+data/tasks.json
