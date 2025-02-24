@@ -88,7 +88,7 @@ taskManager/
 │   ├── repository/        # Handles task storage
 │   ├── services/          # Business logic
 │   ├── cli.ts             # Command-line interface
-│── tests/                 # Unit tests
+│── tests/                 # Unit tests, integration tests, and E2E tests
 │── package.json
 │── README.md
 │── tsconfig.json
@@ -96,10 +96,10 @@ taskManager/
 ```
 
 ### **Testing Approach**
-I implemented **unit tests** using Jest to ensure that each component functions correctly. Key areas covered:
-- Task model instantiation
-- Repository CRUD operations
-- Task service logic
+I implemented **unit tests, integration tests, and end-to-end (E2E) tests** using Jest to ensure that each component functions correctly. Key areas covered:
+- **Unit Tests**: Task model instantiation, repository CRUD operations, task service logic.
+- **Integration Tests**: Interaction between the task service and repository.
+- **End-to-End (E2E) Tests**: Full CLI interaction, ensuring commands work as expected.
 
 To run tests:
 ```sh
