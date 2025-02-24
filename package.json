@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "add": "node dist/cli.js add",
+    "list": "node dist/cli.js list",
+    "update": "node dist/cli.js update",
+    "delete": "node dist/cli.js delete",
     "lint": "eslint 'src/**/*.ts'",
     "format": "prettier --write 'src/**/*.ts'",
     "test": "jest"
   },
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZuluSP/taskManager.git"
@@ -34,6 +41,7 @@
     "typescript-eslint": "^8.25.0"
   },
   "dependencies": {
+    "commander": "^13.1.0",
     "dotenv": "^16.4.7",
     "uuid": "^11.1.0"
   }
